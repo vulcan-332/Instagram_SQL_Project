@@ -71,6 +71,16 @@ FROM
         JOIN
     users AS u ON p.user_id = u.id
 
+/*The investors want to know if the platform is crowded with fake and dummy accounts
+Your Task: Provide data on users (bots) who have liked every single photo on the site (since any normal user would not be able to do this).*/
+
+SELECT u.id, u.username, COUNT(u.id)
+FROM users AS u
+JOIN likes AS l 
+ON u.id = l.user_id
+GROUP BY u.id
+HAVING COUNT(u.id) = (SELECT COUNT(*)
+					  FROM photos);
 
 
 
