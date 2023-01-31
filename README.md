@@ -1,7 +1,7 @@
 # Instagram_SQL_Project
 Delivering insights from instagram using MySQL and Mode
 
-The User Analysis project aims to track user engagement and interaction with the Instagram digital product to derive business insights for various teams. The product team is requested to provide insights to the management questions. The report should cover the following:
+The User Analysis project aims to track user engagement and interaction with the Instagram digital product to derive business insights for various teams. This project aims to simulate the product team is requesting insights to the markettting and user data as well as answering the management questions. This report covers the following queries:
 
 A) Marketing:
 
